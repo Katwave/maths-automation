@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.ProportionsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #ddd;
+  color: #000;
+  width: 100%;
+  height: 300vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+
+.step {
+  width: 70%;
+  height: 30%;
+  -webkit-box-shadow: 6px 6px 22px rgba(0, 0, 0, 0.4);
+          box-shadow: 6px 6px 22px rgba(0, 0, 0, 0.4);
+  background: #fff;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 750px) {
+  .step {
+    width: 96%;
+    background: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+.step h1 {
+  margin-bottom: 20px;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 750px) {
+  .step h1 {
+    font-size: 30px;
+  }
+}
+
+.step h2 {
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.step h2 span {
+  font-size: 24px;
+}
+
+.step p {
+  font-size: 24px;
+}
+
+.step input {
+  outline: none;
+  width: 50%;
+  height: 42px;
+  border: 3px solid #72deff;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.step button {
+  outline: none;
+  border: none;
+  padding: 10px 22px;
+  font-size: 20px;
+  background: #72deff;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.average {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #ddd;
+  color: #000;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+
+.average .averagecalculator {
+  width: 70%;
+  height: 70%;
+  -webkit-box-shadow: 6px 6px 22px rgba(0, 0, 0, 0.4);
+          box-shadow: 6px 6px 22px rgba(0, 0, 0, 0.4);
+  background: #fff;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 750px) {
+  .average .averagecalculator {
+    width: 96%;
+    background: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+.average h1 {
+  margin-bottom: 20px;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 750px) {
+  .average h1 {
+    font-size: 30px;
+  }
+}
+
+.average h2 {
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.average h2 span {
+  font-size: 24px;
+}
+
+.average input {
+  outline: none;
+  width: 50%;
+  height: 42px;
+  border: 3px solid #72deff;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.average button {
+  outline: none;
+  border: none;
+  padding: 10px 22px;
+  font-size: 20px;
+  background: #72deff;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.convert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #ddd;
+  color: #000;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+
+.convert .converters {
+  width: 70%;
+  height: 70%;
+  -webkit-box-shadow: 6px 6px 22px rgba(0, 0, 0, 0.4);
+          box-shadow: 6px 6px 22px rgba(0, 0, 0, 0.4);
+  background: #fff;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 750px) {
+  .convert .converters {
+    width: 96%;
+    background: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+.convert h1 {
+  margin-bottom: 20px;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 750px) {
+  .convert h1 {
+    font-size: 30px;
+  }
+}
+
+.convert h2 {
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.convert h2 span {
+  font-size: 24px;
+}
+
+.convert input {
+  outline: none;
+  width: 50%;
+  height: 42px;
+  border: 3px solid #72deff;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.convert button {
+  outline: none;
+  border: none;
+  padding: 10px 22px;
+  font-size: 20px;
+  background: #72deff;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

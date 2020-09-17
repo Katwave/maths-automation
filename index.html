@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAths Automation</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="ProportionsContainer">
+      <div class="step">
+        <h1>Step 1</h1>
+        <br />
+        <p>Add the ratios together</p>
+        <br />
+        <input type="text" placeholder="Enter R1..." id="firstRatio" /><br />
+        <input type="text" placeholder="Enter R2..." id="secondRatio" /><br />
+        <button id="stepOneButton">Calculate</button><br />
+      </div>
+      <div class="step">
+        <h1>Step 2</h1>
+        <br />
+        <p>If there is X people how many will be R1?</p>
+        <br />
+        <input
+          type="text"
+          placeholder="Enter Total given..."
+          id="total"
+        /><br />
+        <button id="stepTwoButton">Calculate</button><br /><br />
+      </div>
+      <div class="step">
+        <h1>Step 3</h1>
+        <br />
+        <h2>Step 1 answer: <span id="stepOneAnswer"></span></h2>
+        <br />
+        <h2>Answer for R1: <span id="answerForR1"></span></h2>
+        <br />
+        <h2>Answer for R2: <span id="answerForR2"></span></h2>
+      </div>
+    </div>
+
+    <div class="average">
+      <div class="averagecalculator">
+        <h1>Average Calculator</h1>
+        <br />
+        <input
+          type="text"
+          placeholder="Enter Value 1..."
+          id="firstAverageValue"
+        /><br />
+        <input
+          type="text"
+          placeholder="Enter Value 2..."
+          id="secondAverageValue"
+        /><br />
+        <button id="averageButton">Calculate</button><br /><br />
+
+        <h2>Answer: <span id="averageAnswer"></span></h2>
+      </div>
+    </div>
+
+    <div class="convert">
+      <div class="converters">
+        <h1>cm to m</h1>
+        <br />
+        <input
+          type="text"
+          placeholder="Enter Value 1..."
+          id="centimetre"
+        /><br />
+
+        <button id="centimetreToMetreButton">Calculate</button><br /><br />
+
+        <h2>Answer: <span id="CMtoMAnswer"></span></h2>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
